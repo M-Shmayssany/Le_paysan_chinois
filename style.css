@@ -1,10 +1,147 @@
+
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(43, 230, 189);
+}
+
+body {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: linear-gradient(to right,rgba(252, 249, 85, 0.5), rgba(90, 167, 255, 0.5)), url("./img/cloud.jpeg");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
 }
 
 #title {
+    font-size: 160%;
     text-align: center;
 }
+
+section article {
+    width: 50%;
+    margin: 20px 30px;
+    color: rgb(0, 0, 120);
+    font-size: 20px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+blockquote {    
+    background: #eee;
+    box-shadow:#842e1b 8px 0px 0px 0px inset;
+    width: 35%;
+    margin: 0;
+    font-weight: 600;
+    color: rgb(0, 150, 250);
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+ul li:nth-child(1) p{
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-image: url("./img/bien.png");
+    line-height: 3;
+}
+
+ul li:nth-child(2) p{
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-image: url("./img/mal.png");
+    line-height: 3;
+}
+
+ul li:nth-child(3) p{    
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-image: url("./img/chat.png");
+    line-height: 3;
+}
+
+.autre {
+    box-shadow:#808080 8px 0px 0px 0px inset;
+}
+
+blockquote p {
+    font-style: italic;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+blockquote footer {
+    width: 100%;
+    text-align: right;
+    font-weight: 200;
+    
+}
+
+p q {
+    font-style: italic;
+}
+
+span {
+    text-transform: capitalize;
+}
+
+.Mal {
+    color: red;
+}
+
+.Bien {
+    color: green;
+}
+
+.table {
+
+    width: 80vw;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table  td, table th {
+    border: 1px solid white;
+    padding: 8px;
+}
+table tr {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: gray;
+    color: white;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 0);
+}
+
+footer {    
+    width: 100%;
+}
+footer p {
+    width: 100%;
+    text-align: center;
+}
+footer p a {    
+    padding: 20px;
+    font-size: 20px;
+    padding-bottom: 40px; 
+    transition: 0.3s;   
+}
+
+footer a:hover {
+    font-weight: bolder;
+}
+
+footer a:visited {
+    color: rgb(105, 105, 105);
+}
+
+
